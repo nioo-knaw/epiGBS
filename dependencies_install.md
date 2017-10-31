@@ -1,3 +1,4 @@
+```
 apt-get install lbzip2 dh-autoreconf ncurses-dev libpng-dev libopenblas-dev # to do 
 
 conda create -n epiGBS
@@ -12,7 +13,7 @@ conda install -c bioconda sambamba=0.6.6
 
 source /data/tools/usearch/9.2.64/env.sh
 pip install --user -r requirements.txt
-
+```
 
 #`wget https://github.com/samtools/samtools/releases/download/1.3.1/samtools-1.3.1.tar.bz2
 #tar xvf samtools-1.3.1.tar.bz2
