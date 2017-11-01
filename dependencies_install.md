@@ -14,6 +14,7 @@ conda install python=2.7
 source /data/tools/usearch/9.2.64/env.sh
 pip install --user -r requirements.txt
 conda install star
+conda install tabix
 ```
 
 #`wget https://github.com/samtools/samtools/releases/download/1.3.1/samtools-1.3.1.tar.bz2
