@@ -10,7 +10,7 @@ conda install -c bioconda samtools=1.3.1
 conda install -c bioconda bcftools=1.3.1
 conda install -c bioconda bwa=0.7.16
 conda install -c bioconda sambamba=0.6.6
-
+conda install python=2.7
 source /data/tools/usearch/9.2.64/env.sh
 pip install --user -r requirements.txt
 ```
