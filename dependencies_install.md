@@ -13,6 +13,7 @@ conda install -c bioconda sambamba=0.6.6
 conda install python=2.7
 source /data/tools/usearch/9.2.64/env.sh
 pip install --user -r requirements.txt
+conda install star
 ```
 
 #`wget https://github.com/samtools/samtools/releases/download/1.3.1/samtools-1.3.1.tar.bz2
