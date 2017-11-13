@@ -129,4 +129,3 @@ dependencies:
   - tqdm==4.19.4
   - typing==3.6.2
   - urllib3==1.22
-prefix: /home/NIOO.INT/fleurg/.conda/envs/epiGBS
