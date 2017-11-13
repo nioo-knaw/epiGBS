@@ -8,5 +8,4 @@ matplotlib_venn==0.11.5
 nested_dict==1.61
 pyfaidx==0.4.8.1
 scipy==0.18.1
-sphinx_rtd_theme==0.1.10a0
 toolshed==0.4.6
