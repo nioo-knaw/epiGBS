@@ -2,7 +2,7 @@
 mkdir ./output_DMP_test_data
 
 #execute pipeline
-python2 epiGBS/mapping_varcall/filter_bed_ref.py \
+python2 ../src/epiGBS/mapping_varcall/filter_bed_ref.py \
 -r ./output_denovo_test_data/consensus_cluster.renamed.fa \
 --bed ./output_mapping_test_data/methylation.bed \
 --bedout ./output_DMP_test_data/methylation.filtered.bed \
