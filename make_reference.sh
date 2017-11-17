@@ -1,5 +1,5 @@
 # make dependent scripts executable
-ln -s ../src/epiGBS/de_novo_reference_creation/rename_fast.py ~/.conda/envs/epiGBS/bin
+# ln -s ../src/epiGBS/de_novo_reference_creation/rename_fast.py ~/.conda/envs/epiGBS/bin
 # execute the reference pipeline after replacing by the correct directory name
 python2 ../src/epiGBS/de_novo_reference_creation/make_reference.py \
 --forward ./demultiplex_test_data/<replace by name>/R1_demultiplex_test_data_H53KHCCXY_s_5_fastq.txt.gz \
