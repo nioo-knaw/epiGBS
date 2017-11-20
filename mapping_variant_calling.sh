@@ -9,7 +9,7 @@
 #execute the pipeline
 python2 ../src/epiGBS/mapping_varcall/mapping_variant_calling.py \
 --tmpdir /tmp/ \
---barcodes ../data/H53KHCCXY_L5.tsv \
+--barcodes ../data/barcodes.tsv \
 --input_dir ./output_denovo_test_data \
 --threads 20 \
 --log ./output_mapping_test_data/mapping_variant_calling.log \
