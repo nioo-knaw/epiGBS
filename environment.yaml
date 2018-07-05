@@ -13,7 +13,8 @@ dependencies:
 - bioconductor-bsgenome=1.44.2=r3.4.1_0
 - bioconductor-delayedarray=0.2.7=0
 - bioconductor-genomeinfodb=1.12.3=r3.4.1_0
-- bioconductor-genomeinfodbdata==0.99.0=r3.4.1_0- bioconductor-genomicalignments=1.12.2=r3.4.1_0
+- bioconductor-genomeinfodbdata==0.99.0=r3.4.1_0
+- bioconductor-genomicalignments=1.12.2=r3.4.1_0
 - bioconductor-genomicranges=1.28.6=r3.4.1_0
 - bioconductor-iranges=2.12.0=r3.4.1_0
 - bioconductor-rsamtools=1.28.0=r3.4.1_0
