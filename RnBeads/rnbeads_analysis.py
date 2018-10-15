@@ -392,7 +392,7 @@ def append_assembly(args):
     else:
         script_dir = args.script_dir  # Gets the folder destination of the current script.
     # script_dir = script_dir.replace(' ','\ ')
-    annotation_file = "".join(['"', script_dir, "/RnBeads/data/annotations.RData", '"'])
+    annotation_file = "".join(['"', script_dir, "/r-packages/RnBeads/data/annotations.RData", '"'])
     assembly_dict = {
         "file": annotation_file,
         "assembly": args.assembly_code,
@@ -410,7 +410,7 @@ def append_assembly(args):
     log_message = "Adding assembly to RnBeads package."
     run_subprocess(command, log_message)  # Executes the command and appends the assembly data.
     move(os.path.join(args.temp_directory, "annotations.RData"),
-         os.path.join(script_dir, "RnBeads", "data", "annotations.RData"))
+         os.path.join(script_dir, "RnBeads/data/annotations.RData"))
     return add_assembly_script.name
 
 

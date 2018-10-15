@@ -1,10 +1,18 @@
 # Runs the RnBeads analysis with the given parameters. 
 # If a annotation file is given: calculate the the CpG of the given chromosomes too. 
+#library(mvbutils)
+library(Cairo)
+options(bitmapType='cairo')
 .libPaths(c('%(lib_path)s',.libPaths()))
 suppressPackageStartupMessages(library(GenomicRanges))
 suppressPackageStartupMessages(library(RnBeads))
 
 suppressPackageStartupMessages(require(%(package)s))
+
+#dont.lockBindings( assign, S4Vectors, namespace.=TRUE)
+#elementLengths <- S4Vectors:::elementNROWS
+#environment(elementLengths) <- as.environment("package:S4Vectors")
+
 genome.data <- %(species)s
 
 annotation.names <- c(%(annotation_names)s)
