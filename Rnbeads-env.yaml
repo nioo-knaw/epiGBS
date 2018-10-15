@@ -1,0 +1,11 @@
+name: ghost
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+  - r
+dependencies:
+  - ghostscript=9.22=hfc679d8_1
+  - libgcc-ng=7.2.0=hdf63c60_3
+  - libstdcxx-ng=7.2.0=hdf63c60_3
+prefix: /home/NIOO.INT/fleurg/.conda/envs/ghost
