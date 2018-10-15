@@ -1,4 +1,4 @@
-name: epiGBS-test2
+name: epiGBS
 channels:
 - conda-forge
 - bioconda
