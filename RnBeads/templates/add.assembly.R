@@ -7,5 +7,5 @@ rm(list=ls(all=TRUE))
 load(%(file)s)
 #Coppies the mm9 data to the new assembly code. (mm9 just as a tempalte)
 %(assembly)s <- mm9
-save.image(file="/tmp/annotations.RData")
+save.image(file="/scratch/tmp/annotations.RData")
 q(save = "no")
