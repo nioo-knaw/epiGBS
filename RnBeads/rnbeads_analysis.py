@@ -286,7 +286,7 @@ def install_assembly(args):
         specific_path = ""
     else:
         specific_path = " -l " + args.lib_path + " ; R_LIBS=" + args.lib_path + "; export R_LIBS"
-    command = "R CMD INSTALL " + assembly_package + specific_path
+    command = "R CMD INSTALL -l /home/NIOO.INT/fleurg/epiGBS/analysis/packrat/lib/x86_64-pc-linux-gnu/3.4.2 " + assembly_package + specific_path
     log_message = "Installing the new assembly package"
     run_subprocess(command, log_message)  # Installs the assembly with code:command
 
@@ -376,7 +376,7 @@ def install_rnbeads(args):
         specific_path = ""
     else:
         specific_path = " -l " + args.lib_path + " ; R_LIBS=" + args.lib_path + "; export R_LIBS"
-    command = "R CMD INSTALL " + rnbeads_package + specific_path
+    command = "R CMD INSTALL -l /home/NIOO.INT/fleurg/epiGBS/analysis/packrat/lib/x86_64-pc-linux-gnu/3.4.2 " + rnbeads_package + specific_path
     log_message = "reinstalling the appended RnBeads package"
     run_subprocess(command, log_message)  # Runs the process.
 
@@ -469,7 +469,7 @@ def install_genome_file(args):
         specific_path = ""
     else:
         specific_path = " -l " + args.lib_path + " ; R_LIBS=" + args.lib_path + "; export R_LIBS"
-    command = "".join(["cd ", tmp, ";R CMD INSTALL ", genome_package, specific_path])
+    command = "".join(["cd ", tmp, ";R CMD INSTALL -l /home/NIOO.INT/fleurg/epiGBS/analysis/packrat/lib/x86_64-pc-linux-gnu/3.4.2 ", genome_package, specific_path])
     log_message = "Installing genome file"
     run_subprocess(command, log_message)  # After building the folder to a tar, the package can be installed.
     return [genome_folder, genome_package]
