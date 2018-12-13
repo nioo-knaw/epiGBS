@@ -17,7 +17,7 @@ libpng-dev libfreetype6-dev pkg-config gfortran \
 libopenblas-dev liblapack-dev
 ```
 
-2.[PEAR: a fast and accurate Illumina Paired-End reAd mergeR](https://dx.doi.org/10.1093/bioinformatics/btt593)
+2.[PEAR: a fast and accurate Illumina Paired-End reAd mergeR](https://doi.org/10.1093/bioinformatics/btt593)
 
 ```SH
 wget http://sco.h-its.org/exelixis/web/software/pear/files/pear-0.9.10-bin-64.tar.gz

@@ -1500,7 +1500,7 @@ rnb.section.diffMeth.introduction <- function(diffmeth,report){
 	} else if (site.test.method == "refFreeEWAS"){
 		refText <- c(
 			"Houseman, E. A., Molitor, J., and Marsit, C. J. (2014). Reference-Free Cell Mixture Adjustments in Analysis of DNA Methylation Data. ",
-			"<i>Bioinformatics</i>, <a href=http://dx.doi.org/doi:10.1093/bioinformatics/btu029>doi:10.1093/bioinformatics/btu029</a>"
+			"<i>Bioinformatics</i>, <a href=https://doi.org/doi:10.1093/bioinformatics/btu029>doi:10.1093/bioinformatics/btu029</a>"
 		)
 		report <- rnb.add.reference(report, refText)
 
